@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>ระบบข้อสอบอย่างง่าย Simple Quiz</title>
+   <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <div>
+        <div class="quiz-container">
+            <h1></h1>
+            <p id="question">1.KU ย่อมาจากอะไร ?</p>
+            <button class="button" onclick="checkAnswer('a')">A) Khon Kaen University</button><br>
+            <button class="button" onclick="checkAnswer('b')">B) Krirk University</button><br>
+            <button class="button" onclick="checkAnswer('c')">C) King Mongkut's University of Technology</button><br>
+            <button class="button" onclick="checkAnswer('d')">D) Kasetsart University</button><br>
+            <p id="result"></p>
+        </div>
+        <div class="quiz-container">
+            <h1></h1>
+            <p id="question">2.ใครไม่ใช่บุคคลสำคัญของ KU ?</p>
+            <button class="button" onclick="checkAnswer2('a')">A) หลวงสุวรรณวาจกกสิกิจ</button><br>
+            <button class="button" onclick="checkAnswer2('b')">B) ปรีดี พนมยงค์</button><br>
+            <button class="button" onclick="checkAnswer2('c')">C) พระช่วงเกษตรศิลปการ</button><br>
+            <button class="button" onclick="checkAnswer2('d')">D) หลวงอิงคศรีกสิการ</button><br>
+            <p id="result2"></p>
+        </div>
+        <p id="result3"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
